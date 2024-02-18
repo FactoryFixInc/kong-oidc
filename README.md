@@ -60,9 +60,9 @@ The plugin will try to retrieve the user's groups from a field in the token (def
 
 ## Installation
 
-If you're using `luarocks` execute the following:
+Using `luarocks` execute the following to install locally:
 
-     luarocks install kong-oidc
+     luarocks make
 
 [Kong >= 0.14] Since `KONG_CUSTOM_PLUGINS` has been removed, you also need to set the `KONG_PLUGINS` environment variable to include besides the bundled ones, oidc
 
